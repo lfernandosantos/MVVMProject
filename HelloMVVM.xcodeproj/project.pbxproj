@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED63482D20FEBC4300AC43A8 /* BindingTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED63482C20FEBC4300AC43A8 /* BindingTextBox.swift */; };
 		EDDA884E20FE42E300C3B5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA884D20FE42E300C3B5DE /* AppDelegate.swift */; };
 		EDDA885020FE42E300C3B5DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA884F20FE42E300C3B5DE /* ViewController.swift */; };
 		EDDA885320FE42E300C3B5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDA885120FE42E300C3B5DE /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		EDDA885820FE42F500C3B5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDA885620FE42F500C3B5DE /* LaunchScreen.storyboard */; };
 		EDDA886320FE42F500C3B5DE /* HelloMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA886220FE42F500C3B5DE /* HelloMVVMTests.swift */; };
 		EDDA886E20FE42F500C3B5DE /* HelloMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA886D20FE42F500C3B5DE /* HelloMVVMUITests.swift */; };
+		EDDA887C20FE433200C3B5DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA887B20FE433200C3B5DE /* User.swift */; };
+		EDDA887E20FE438300C3B5DE /* RegistrationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA887D20FE438300C3B5DE /* RegistrationVM.swift */; };
+		EDDA888020FE44F800C3B5DE /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA887F20FE44F800C3B5DE /* RegistrationTableViewController.swift */; };
+		EDDA888220FEACB300C3B5DE /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA888120FEACB300C3B5DE /* UsersTableViewController.swift */; };
+		EDDA888420FEACDC00C3B5DE /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA888320FEACDC00C3B5DE /* DataAccess.swift */; };
+		EDDA888620FEAD6D00C3B5DE /* UsersListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA888520FEAD6D00C3B5DE /* UsersListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED63482C20FEBC4300AC43A8 /* BindingTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextBox.swift; sourceTree = "<group>"; };
 		EDDA884A20FE42E200C3B5DE /* HelloMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDA884D20FE42E300C3B5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDA884F20FE42E300C3B5DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		EDDA886920FE42F500C3B5DE /* HelloMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDA886D20FE42F500C3B5DE /* HelloMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMVVMUITests.swift; sourceTree = "<group>"; };
 		EDDA886F20FE42F600C3B5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDA887B20FE433200C3B5DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EDDA887D20FE438300C3B5DE /* RegistrationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVM.swift; sourceTree = "<group>"; };
+		EDDA887F20FE44F800C3B5DE /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		EDDA888120FEACB300C3B5DE /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		EDDA888320FEACDC00C3B5DE /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		EDDA888520FEAD6D00C3B5DE /* UsersListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				EDDA885420FE42F500C3B5DE /* Assets.xcassets */,
 				EDDA885620FE42F500C3B5DE /* LaunchScreen.storyboard */,
 				EDDA885920FE42F500C3B5DE /* Info.plist */,
+				EDDA887B20FE433200C3B5DE /* User.swift */,
+				EDDA887D20FE438300C3B5DE /* RegistrationVM.swift */,
+				EDDA887F20FE44F800C3B5DE /* RegistrationTableViewController.swift */,
+				EDDA888120FEACB300C3B5DE /* UsersTableViewController.swift */,
+				EDDA888320FEACDC00C3B5DE /* DataAccess.swift */,
+				EDDA888520FEAD6D00C3B5DE /* UsersListVM.swift */,
+				ED63482C20FEBC4300AC43A8 /* BindingTextBox.swift */,
 			);
 			path = HelloMVVM;
 			sourceTree = "<group>";
@@ -257,7 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDA885020FE42E300C3B5DE /* ViewController.swift in Sources */,
+				EDDA887E20FE438300C3B5DE /* RegistrationVM.swift in Sources */,
+				EDDA888220FEACB300C3B5DE /* UsersTableViewController.swift in Sources */,
 				EDDA884E20FE42E300C3B5DE /* AppDelegate.swift in Sources */,
+				EDDA888020FE44F800C3B5DE /* RegistrationTableViewController.swift in Sources */,
+				ED63482D20FEBC4300AC43A8 /* BindingTextBox.swift in Sources */,
+				EDDA888620FEAD6D00C3B5DE /* UsersListVM.swift in Sources */,
+				EDDA887C20FE433200C3B5DE /* User.swift in Sources */,
+				EDDA888420FEACDC00C3B5DE /* DataAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9GPVQ9CP7;
 				INFOPLIST_FILE = HelloMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9GPVQ9CP7;
 				INFOPLIST_FILE = HelloMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
